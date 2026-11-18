@@ -1,2 +1,2 @@
-# trido
+# TriDoList
 To do list
