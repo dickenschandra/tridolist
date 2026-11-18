@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html>
  <head>
-   <title>Trido</title>
-   <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css" />
+    <title>Trido</title>
  </head>
+
  <body>
-     <h1 class="title">TriDo List</h1>
+     <h1 class="title">Do them one by one.</h1>
      <div class="container">
-      <div class="list">
-        <p>Daily</p>
+      <div class="stack">
+        <div class="listtype" style="background-color: #E8F5BD">
+          <p>Daily</p>
+        </div>
+        <div class="box">
+          <input type="text" id="todo-item">
+          <button>Add task</button>
+        </div>
       </div>
-      <div class="list">
-        <p>Active</p>
+
+      <div class="stack">
+        <div class="listtype" style="background-color: #C7EABB">
+          <p>Active</p>
+        </div>
+        <div class="box">
+          <input type="text" id="todo-item">
+          <button>Add task</button>
+        </div>
       </div>
-      <div class="list">
-        <p>Pinned</p>
+
+      <div class="stack">
+        <div class="listtype" style="background-color: #A2CB8B">
+          <p>Pinned</p>
+        </div>
+        <div class="box">
+          <input type="text" id="todo-item">
+          <button>Add task</button>
+        </div>
       </div>
      </div>
+
  </body>
 </html>
